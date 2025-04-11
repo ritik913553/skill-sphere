@@ -12,7 +12,7 @@ const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
       content:
-        "This platform has been a game-changer for my career. I found my current job through the job board and have learned so many new skills from the tutorials.",
+        "SkillSphere helped me find a mentor who guided me through my career transition. The community is incredibly supportive!",
       author: {
         name: "Sarah Johnson",
         title: "Frontend Developer",
@@ -21,7 +21,7 @@ const TestimonialsSection: React.FC = () => {
     },
     {
       content:
-        "The community here is incredible. I've connected with mentors who've helped me navigate my tech journey and made lifelong professional relationships.",
+        "The project collaborations on SkillSphere gave me the practical experience I needed to land my dream job.",
       author: {
         name: "Michael Chen",
         title: "Software Engineer",
@@ -30,7 +30,7 @@ const TestimonialsSection: React.FC = () => {
     },
     {
       content:
-        "Writing blogs on this platform helped me establish myself as a thought leader in my field. The exposure has opened up speaking opportunities and consulting gigs.",
+        "As a mentor, I find great satisfaction in helping others grow while also expanding my own network.",
       author: {
         name: "Jessica Rodriguez",
         title: "Data Scientist",
@@ -49,7 +49,7 @@ const TestimonialsSection: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-[700px] py-16 w-full mt-10">
+    <div className="min-h-[500px] py-16 w-full mt-10">
       <div className="max-w-7xl mx-auto">
         <div className="text-center animate-fade-in">
           <h2 className="text-3xl font-extrabold sm:text-4xl dark:text-white text-blue-500 inline-block">

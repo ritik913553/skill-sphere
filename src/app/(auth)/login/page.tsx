@@ -14,7 +14,7 @@ export default function page() {
       <h2 className="text-4xl font-extrabold">
         Welcome Back, to{" "}
         <span className="bg-gradient-to-r from-blue-300 to-purple-500 text-transparent bg-clip-text">
-          Algorithmic Dev
+          Skill Sphere
         </span>
       </h2>
       <AuthForm isLogin={true} />

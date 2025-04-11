@@ -55,7 +55,7 @@ export default function Header() {
     >
       <div className="w-full max-w-[1400px] mx-auto flex justify-between items-center">
         <Link className="font-bold text-xl " href={"/"}>
-          Algorithemic Dev
+          Skill Sphere
         </Link>
         <div className="lg:hidden">
           <Button variant={"ghost"}>
@@ -63,38 +63,9 @@ export default function Header() {
           </Button>
         </div>
         <div className="lg:flex gap-2 items-center hidden">
-          <Button
-            variant={"link"}
-            className="cursor-pointer"
-            onClick={() => router.push("/jobs")}
-          >
-            <Briefcase />
-            <span>Jobs</span>
-          </Button>
-          <Button
-            variant={"link"}
-            className="cursor-pointer"
-            onClick={() => router.push("/tutorials")}
-          >
-            <GraduationCap />
-            <span>Tutorials</span>
-          </Button>
-          <Button
-            variant={"link"}
-            className="cursor-pointer"
-            onClick={() => router.push("/blogs")}
-          >
-            <BookOpen />
-            <span>Blogs</span>
-          </Button>
-          <Button
-            variant={"link"}
-            className="cursor-pointer"
-            onClick={() => router.push("/products")}
-          >
-            <PackageSearch />
-            <span>Products</span>
-          </Button>
+         
+          
+          
           <div className="flex gap-2 items-center ml-5">
             {session.status === "authenticated" ? (
               <ProfileSheet />

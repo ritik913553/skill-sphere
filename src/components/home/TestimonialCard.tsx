@@ -44,7 +44,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         />
         <p className="text-gray-700 dark:text-gray-400 text-lg leading-relaxed">"{content}"</p>
       </CardContent>
-      <CardFooter className="p-4 border-t flex items-center space-x-4">
+      <CardFooter className="p-4 border-t flex items-center space-x-4 ">
         <Avatar className="h-12 w-12 ring-2 ring-tech-purple/20 transition-all hover:ring-tech-purple">
           {author.avatarUrl ? (
             <AvatarImage src={author.avatarUrl} alt={author.name} />
